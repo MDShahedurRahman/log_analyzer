@@ -1,2 +1,6 @@
 # log_analyzer
-A simple command-line tool that reads application log files, parses log entries, filters logs by level and date, counts errors and warnings, and generates summary reports.
+Overview
+
+Log File Analyzer is a command-line Python application designed to read, parse, filter, and analyze application log files. The project demonstrates clean modular design, clear separation of concerns, and practical backend-style log processing using Python’s standard library only.
+
+This project is intended for learning, portfolio development, and showcasing incremental Git commit history.
