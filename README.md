@@ -17,3 +17,19 @@ Filter logs by severity level and date
 Count log occurrences by level
 
 Generate and display a summary report in the terminal
+
+
+
+
+Project Structure
+log_analyzer/
+│
+├── main.py          # Application entry point
+├── config.py        # Global configuration values
+├── log_entry.py     # Log entry data model
+├── log_loader.py    # Log file loading logic
+├── log_parser.py    # Log parsing logic
+├── log_filter.py    # Log filtering functions
+├── analyzer.py      # Log analysis functions
+├── report.py        # Report generation and output
+├── utils.py         # Utility and validation helpers
