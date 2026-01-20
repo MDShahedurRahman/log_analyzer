@@ -10,3 +10,11 @@ class LogEntry:
             "level": self.level,
             "message": self.message
         }
+
+    @staticmethod
+    def from_dict(data):
+        return LogEntry(
+            data["date"],
+            data["level"],
+            data["message"]
+        )
