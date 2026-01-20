@@ -1,11 +1,10 @@
-from utils import validate_date
+from datetime import datetime
+from config import DATE_FORMAT
 
 
-def filter_by_level(entries, level):
-    return [e for e in entries if e.level == level]
-
-
-def filter_by_date(entries, date):
-    if not validate_date(date):
-        return []
-    return [e for e in entries if e.date == date]
+def validate_date(date_str):
+    try:
+        datetime.strptime(date_str, DATE_FORMAT)
+        return True
+    except ValueError:
+        return False
