@@ -12,6 +12,7 @@ def parse_log_line(line):
 def parse_logs(lines):
     entries = []
     for line in lines:
-        parse_log_line(line)
-
+        entry = parse_log_line(line)
+        if entry:
+            entries.append(entry)
     return entries
