@@ -42,6 +42,12 @@ Python 3.8 or higher
 
 No third-party dependencies
 
+Example:
+
+2026-01-10 INFO Application started
+2026-01-10 WARNING Low disk space
+2026-01-10 ERROR Database connection failed
+
 
 Log File Format
 
