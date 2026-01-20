@@ -41,3 +41,12 @@ Requirements
 Python 3.8 or higher
 
 No third-party dependencies
+
+
+Log File Format
+
+The application expects a log file named application.log in the project root directory.
+
+Each log entry must follow this format:
+
+YYYY-MM-DD LEVEL Message
