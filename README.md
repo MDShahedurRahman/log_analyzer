@@ -33,3 +33,11 @@ log_analyzer/
 ├── analyzer.py      # Log analysis functions
 ├── report.py        # Report generation and output
 ├── utils.py         # Utility and validation helpers
+
+
+
+Requirements
+
+Python 3.8 or higher
+
+No third-party dependencies
