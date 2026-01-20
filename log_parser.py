@@ -7,3 +7,11 @@ def parse_log_line(line):
         return None
     date, level, message = parts
     return LogEntry(date, level, message)
+
+
+def parse_logs(lines):
+    entries = []
+    for line in lines:
+        parse_log_line(line)
+
+    return entries
