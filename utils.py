@@ -8,3 +8,7 @@ def validate_date(date_str):
         return True
     except ValueError:
         return False
+
+
+def normalize_level(level):
+    return level.upper()
