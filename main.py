@@ -6,6 +6,7 @@ from report import summary_report, print_report
 
 
 def main():
+    lines = load_logs()
 
 
 if __name__ == "__main__":
