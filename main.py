@@ -8,6 +8,7 @@ from report import summary_report, print_report
 def main():
     lines = load_logs()
     entries = parse_logs(lines)
+    error_entries = filter_by_level(entries, "ERROR")
 
 
 if __name__ == "__main__":
