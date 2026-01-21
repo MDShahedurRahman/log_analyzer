@@ -9,6 +9,7 @@ def main():
     lines = load_logs()
     entries = parse_logs(lines)
     error_entries = filter_by_level(entries, "ERROR")
+    counts = count_by_level(entries)
 
 
 if __name__ == "__main__":
