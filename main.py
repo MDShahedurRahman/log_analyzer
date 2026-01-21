@@ -10,6 +10,7 @@ def main():
     entries = parse_logs(lines)
     error_entries = filter_by_level(entries, "ERROR")
     counts = count_by_level(entries)
+    report = summary_report(error_entries, counts)
 
 
 if __name__ == "__main__":
