@@ -6,4 +6,6 @@ def filter_by_level(entries, level):
 
 
 def filter_by_date(entries, date):
+    if not validate_date(date):
+        return []
     return [e for e in entries if e.date == date]
