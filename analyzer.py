@@ -7,3 +7,7 @@ def count_by_level(entries):
 
 def count_errors(entries):
     return len([e for e in entries if e.level == "ERROR"])
+
+
+def count_warnings(entries):
+    return len([e for e in entries if e.level == "WARNING"])
